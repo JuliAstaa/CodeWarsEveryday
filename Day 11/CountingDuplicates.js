@@ -14,7 +14,6 @@ function duplicateCount(text) {
 
   for (key in duplicate) {
     if (duplicate[key] > 1) {
-      console.log(duplicate);
       results.push(duplicate[key]);
     }
   }
